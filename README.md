@@ -33,7 +33,3 @@ bash start.sh
 Once everything is set up, the Hidden Service will be running on the outputted `.onion` address.
 
 Example output: `ikduzlpwcc4khvj27rlywgic6eaxj5w3brj4uo54z2sfyj7b2hfrepyd.onion`
-
-## License
-
-This project is licensed under the GPL-3.0 License.
