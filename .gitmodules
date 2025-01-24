@@ -1,3 +1,4 @@
 [submodule "shopstr"]
 	path = shopstr
 	url = https://github.com/shopstr-eng/shopstr.git
+        branch = serverless
