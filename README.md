@@ -45,7 +45,7 @@ cd shopstr-hidden-service
 cd shopstr
 git pull
 ```
-### 2. Rebuild and Redoply the Hidden Service
+### 2. Rebuild and redoply the Hidden Service
 
 ```bash
 cd ..
