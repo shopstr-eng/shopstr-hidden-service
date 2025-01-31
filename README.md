@@ -33,3 +33,21 @@ bash start.sh
 Once everything is set up, the Hidden Service will be running on the outputted `.onion` address.
 
 Example output: `ikduzlpwcc4khvj27rlywgic6eaxj5w3brj4uo54z2sfyj7b2hfrepyd.onion`
+
+## Update Instructions
+
+Follow these steps to update your deployment to the latest version of Shopstr:
+
+### 1. Pull the latest changes
+
+```bash
+cd shopstr-hidden-service
+cd shopstr
+git pull
+```
+### 2. Rebuild and Redoply the Hidden Service
+
+```bash
+cd ..
+bash start.sh
+```
