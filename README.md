@@ -43,7 +43,7 @@ Follow these steps to update your deployment to the latest version of Shopstr:
 ```bash
 cd shopstr-hidden-service
 cd shopstr
-git pull
+git pull # Make sure you are on the 'serverless' branch before pulling.
 ```
 ### 2. Rebuild and redoply the Hidden Service
 
