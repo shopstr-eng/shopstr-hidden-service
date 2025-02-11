@@ -32,7 +32,7 @@ bash start.sh
 
 Once everything is set up, the Hidden Service will be running on the outputted `.onion` address.
 
-Example output: `ikduzlpwcc4khvj27rlywgic6eaxj5w3brj4uo54z2sfyj7b2hfrepyd.onion`
+Example output: `6fkdn756yryd5wurkq7ifnexupnfwj6sotbtby2xhj5baythl4cyf2id.onion`
 
 ## Update Instructions
 
@@ -43,7 +43,8 @@ Follow these steps to update your deployment to the latest version of Shopstr:
 ```bash
 cd shopstr-hidden-service
 cd shopstr
-git pull # Make sure you are on the 'serverless' branch before pulling.
+git checkout serverless # Only needed if you're not already on the 'serverless' branch.
+git pull
 ```
 ### 2. Rebuild and redoply the Hidden Service
 
