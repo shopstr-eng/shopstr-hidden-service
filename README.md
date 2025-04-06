@@ -18,7 +18,7 @@ cd shopstr
 git init
 git remote add origin https://github.com/shopstr-eng/shopstr.git
 git fetch
-git checkout origin/serverless -ft
+git checkout origin/main -ft
 ```
 
 ### 3. Build and deploy the Hidden Service
@@ -43,7 +43,6 @@ Follow these steps to update your deployment to the latest version of Shopstr:
 ```bash
 cd shopstr-hidden-service
 cd shopstr
-git checkout serverless # Only needed if you're not already on the 'serverless' branch.
 git pull
 ```
 ### 2. Rebuild and redoply the Hidden Service
