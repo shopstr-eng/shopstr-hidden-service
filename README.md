@@ -32,7 +32,7 @@ bash start.sh
 
 Once everything is set up, the Hidden Service will be running on the outputted `.onion` address.
 
-Example output: `6fkdn756yryd5wurkq7ifnexupnfwj6sotbtby2xhj5baythl4cyf2id.onion`
+Example output: `z64bvbz2niptamub2lzqnyyuycmsdokkffpak5x5uddsyd427dx7qqad.onion`
 
 ## Update Instructions
 
